@@ -12,7 +12,6 @@ const (
 	FileTypeImage FileType = "image" // 图片
 	FileTypeFile  FileType = "file"  // 普通文件
 	FileTypeVoice FileType = "voice" // 语音
-	FileTypeVideo FileType = "video" // 视频
 )
 
 type UploadMediaRequest struct {
